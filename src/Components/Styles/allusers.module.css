@@ -1,0 +1,46 @@
+.heading{
+    padding: 1rem;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+.allusers{
+    text-align: center;
+}
+
+.user{
+    border-radius: 5px;
+    background-color: rgb(218, 218, 252);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
+    margin: 1px;
+}
+.useritem{
+    padding: .7rem 1rem;
+}
+.searchform{
+    display: block;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userinputfieldbtn{
+    font-size: 18px;
+    margin-left: 10px;
+    display: block;
+    padding: .6rem 1rem;
+    background-color: rgb(156, 156, 253);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+}
+.userinputfieldinput{
+    display: block;
+    padding: .5rem 10px;
+    width: 400px;
+    font-size: 18px;
+}

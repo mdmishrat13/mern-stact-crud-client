@@ -1,0 +1,24 @@
+.navbg{
+    background-color: rgb(156, 156, 253);
+}
+.navitems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navitem{
+    list-style: none;
+    padding: .7rem 2rem;
+    margin-left: 10px;
+    color: white;
+}
+
+.logo{
+    color: rgb(66, 60, 60);
+    font-weight: 400;
+}
+.itemscontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
