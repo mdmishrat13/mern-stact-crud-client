@@ -16,10 +16,17 @@ const AddUser = () => {
             },
             body:JSON.stringify(addedUser)
         })
-        console.log(addedUser)
-        alert('User Added Successfully')
+        .then(res=>res.json())
+        .then(data=>{
+            if(data.insertedId){
+                alert('User added successfully')
+                e.target.reset();
+            }
+        })
+        
         e.preventDefault()
     }
+    
     return (
         <div className='container'>
             <h1 className={styles.headerText}>Please add an user</h1>

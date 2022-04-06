@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./../../Styles/global.css";
 import styles from "./../../Styles/navbar.module.css";
 
+
 const Navbar = () => {
   return (
     <div>
@@ -13,14 +14,11 @@ const Navbar = () => {
               <h2 className={styles.logo}>Crud App</h2>
             </div>
             <ul className={styles.navitems}>
-              <li className={styles.navitem}>
-                <Link to="/">Home</Link>
+            <li className={styles.navitem}>
+                <Link to="/">All User</Link>
               </li>
               <li className={styles.navitem}>
                 <Link to="/adduser">Add User</Link>
-              </li>
-              <li className={styles.navitem}>
-                <Link to="/alluser">All User</Link>
               </li>
             </ul>
           </div>
